@@ -1,0 +1,284 @@
+/* Responsive For Laptop Device */
+
+@media (max-width:912px){
+    .header .navbar{
+        padding: 2rem;
+    }
+    .header .navbar .menu_item ul{
+        position: absolute;
+        top: 0;
+        right: -500px;
+        flex-direction: column;
+        width: 320px;
+        height: 100vh;
+        background-color: #040436;
+        transition: 0.5s ease-in-out;
+    }
+    .header .navbar .menu_item ul.show{
+        right: 0;
+    }
+    .header .navbar .menu_item ul li{
+        margin-left: 0px;
+        padding: 2rem 4rem;
+    }
+    .header .navbar .menu_item ul li a{
+        color: var(--white-color);
+    }
+
+    .header .navbar .menu_item ul .close{
+        display: initial;
+        position: absolute;
+        top: 0px;
+        right: 2px;
+        font-size: 2rem;
+    }
+    .bars{
+        display: initial;
+    }
+
+    #home .header_wrap{
+        flex-direction: column-reverse;
+    }
+
+    #home .header_wrap .left {
+        margin-top: 2rem;
+    }
+    
+    #home .header_wrap .right {
+        width: 75%;
+        padding-left: 0px;
+    }
+    #about .wrap_box{
+        flex-direction: column;
+    }
+    #about .wrap_box .single_box{
+        margin-top: 2rem;
+        width: 70%;
+    }
+    #about .utlizie_wrap{
+        flex-direction: column;
+    }
+    #about .utlizie_wrap .first{
+        width: 70%;
+        margin-top: 2rem;
+    }
+    #analytics .analy_wrap{
+        flex-direction: column;
+    }
+    #analytics .analy_wrap .left{
+        width: 70%;
+    }
+    #testimonial .testimoni_wrap{
+        flex-direction: column-reverse;
+        justify-content: center;
+        align-items: center;
+    }
+    #testimonial .testimoni_wrap .left{
+        width: 70%;
+        margin-top: 2rem;
+    }
+    #testimonial .testinfo_test{
+        flex-wrap: wrap;
+    }
+    #testimonial .testi_card{
+        margin-top: 1rem;
+    }
+    #process .process_wrap{
+        flex-direction: column;
+        align-items: center;
+    }
+    #process .process_wrap .left{
+        width: 70%;
+        margin-bottom: 2rem;
+    }
+    #pricing .icon_container{
+        margin-left: 0px;
+    }
+    #pricing .pricing_container{
+        flex-direction: column;
+    }
+    #pricing .single_price{
+        width: 50%;
+        margin-top: 2rem;
+    }
+    #collaboration .col_wrapp{
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+    #collaboration .col_wrapp .row_first{
+        width: 70%;
+        margin-bottom: 2rem;
+    }
+    #connect .connect_main .service_item{
+        flex-wrap: wrap;
+    }
+    .footer .row .col{
+        margin-bottom: 3rem;
+    }
+}
+
+/* Responsive For Tablet Device */
+
+@media (max-width:768px){
+    #home{
+        padding-top: 0px;
+    }
+    #home .header_wrap .right{
+        width: 50%;
+    }
+    #home .header_wrap .left{
+        text-align: center;
+    }
+    #pricing .icon_container{
+        width: 100%;
+    }
+    #collaboration .main_wrapper{
+        flex-direction: column;
+    }
+    #collaboration .main_wrapper .left{
+        width: 70%;
+    }
+    #collaboration .main_wrapper .middle{
+        width: 70%;
+    }
+    #collaboration .main_wrapper .right{
+        width: 70%;
+    }
+}
+
+/* Responsive For Mobile Device */
+
+@media (max-width:420px){
+    .middle_title h1{
+        font-size: 1.5rem;
+    }
+    .middle_title p{
+        font-size: 0.8rem;
+        line-height: 20px;
+    }
+    #home .header_wrap .left{
+        width: 100%;
+    }
+    #home .header_wrap .left h1{
+        font-size: 1.5rem;
+    }
+    #home .header_wrap .left p{
+        font-size: 0.7rem;
+    }
+    #home .header_wrap .left .req{
+        padding: 0.5rem 1.5rem !important;
+        font-size: 0.8rem;
+    }
+    #home .header_wrap .left .client {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+        width: 100%;
+    }
+    #home .header_wrap .left .client img{
+        width: 40%;
+    }
+
+    #about .wrap_box .single_box{
+        width: 100%;
+    }
+
+    #about .utlizie_wrap .first{
+        width: 100%;
+        flex-direction: column-reverse;
+    }
+    #about .utlizie_wrap .first .left{
+        width: 100%;
+    }
+    #about .utlizie_wrap .first .right{
+        width: 100%;
+    }
+
+    #analytics .analy_wrap .left .main{
+        flex-direction: column;
+    }
+    #analytics .analy_wrap .left .main .first{
+        width: 100%;
+    }
+    #analytics .analy_wrap .left .main .second{
+        width: 100%;
+    }
+    #analytics .analy_wrap .right{
+        width: 100%;
+    }
+    #analytics .analy_wrap .left h1{
+        font-size: 1.5rem;
+    }
+    #analytics .analy_wrap .left p{
+        font-size: 0.8rem;
+    }
+    #testimonial .testimoni_wrap .right{
+        width: 100%;
+    }
+    #process .process_wrap .left{
+        width: 100%;
+    }
+    #process .process_wrap .right{
+        width: 100%;
+    }
+    #process .process_wrap .right .righ_wr .box_content h4{
+        font-size: 0.6rem;
+    }
+    #process .process_wrap .right .righ_wr .box_content h3{
+        font-size: 1rem;
+    }
+    #process .process_wrap .right .righ_wr .box_content p{
+        font-size: 0.7rem;
+    }
+    .box_content {
+        width: 40%;
+    }
+    #pricing .icon_container{
+        flex-direction: column;
+    }
+    #pricing .icon_container .single_icon{
+        width: 100%;
+        margin-bottom: 1rem;
+    }
+    #pricing .single_price{
+        width: 100%;
+    }
+    #faq .faq_container{
+        flex-direction: column-reverse;
+        justify-content: center;
+        align-items: center;
+    }
+    #faq .faq_container .left{
+        width: 100%;
+        margin-top: 2rem;
+    }
+    #faq .faq_container .right{
+        width: 100%;
+    }
+    #collaboration .main_wrapper .middle{
+        width: 100%;
+    }
+    #collaboration .col_wrapp .row_first{
+        width: 100%;
+    }
+    #connect .connect_main .middle_title span{
+        font-size: 0.6rem;
+    }
+    #connect .connect_main .middle_title h1{
+        font-size: 0.6rem;
+    }
+    #connect .connect_main .middle_title p{
+        font-size: 0.7rem;
+    }
+    #connect .connect_main button{
+        padding: 0.4rem 1rem !important;
+        font-size: 0.5rem;
+    }
+    .footer .footer_bottom{
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+}
